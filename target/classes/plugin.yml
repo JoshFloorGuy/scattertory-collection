@@ -1,0 +1,4 @@
+name: ScattertoryCollection
+description: A collection of different plugins, stemming from the first plugin, Scattertory
+version: 1.0
+main: scattertory.Main

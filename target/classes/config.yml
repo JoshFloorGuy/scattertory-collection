@@ -1,0 +1,27 @@
+version: 1.0
+scattertory:
+  enabled: false
+  class: scattertory.Scattertory
+switcheroni:
+  enabled: true
+  units:
+    h:
+      seconds: 3600
+      name: hour
+    m:
+      seconds: 60
+      name: minute
+    s:
+      seconds: 1
+      default: true
+      name: second
+  cooldown:
+    value: 2.5
+    unit: m
+  warning:
+    value: 10
+    unit: s
+  class: scattertory.SwitchPlayers
+damajoni:
+  enabled: false
+  class: scattertory.DamageListener
